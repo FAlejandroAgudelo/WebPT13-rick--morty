@@ -1,0 +1,25 @@
+.buscar{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.contenido{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: url("/img/fondo.jpg");
+    margin-bottom: 0.5rem;
+}
+
+.buscar input{
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    height: 1.5 rem;
+}
+.buscar button {
+    border-radius: 0.5rem;
+    background-color: yellow;
+    height: 2rem;
+    font-size: large;
+    
+}

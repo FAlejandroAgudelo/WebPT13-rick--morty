@@ -1,0 +1,33 @@
+.container {
+    border: 1px solid gray;
+    border-radius: 1rem;
+    background-image: url("/img/fondo.jpg");
+    /* width: 25rem; */
+    padding: 0.5rem;
+    box-shadow: 1rem 1rem 1rem black;
+
+}
+
+.image {
+    max-width: 22rem ;
+}
+.botonContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.botonContainer button{
+    background-color: rgb(54, 224, 170);
+    color: white;
+    border-radius: 2px;
+    font-size: 1rem;
+    border: 0px;
+}
+.dataContainer{
+    text-align: center;
+    padding: 1rem;
+}
+
+.dataContainer h2 {
+font-size: 1.5rem;
+background-color: yellow;
+}

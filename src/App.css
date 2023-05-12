@@ -1,3 +1,14 @@
 .App {
    text-align: center;
 }
+.logo1 {
+   max-width: 85%;
+   
+}
+.logo{
+   background-color: rgb(9, 7, 30);
+   height: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+   

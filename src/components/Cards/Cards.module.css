@@ -1,0 +1,10 @@
+.dataCard{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media screen and  (max-width: 1400px){
+    .dataCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
