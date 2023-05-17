@@ -8,10 +8,13 @@ export default function Cards(props) {
          {characters.map(character => (
             <Card
                key = {character.id}
-               name = {character.name}
                species = {character.species}
                gender = {character.gender}
+               name = {character.name}
+               status = {character.status}
+               // origin = {character.origin.name}
                image = {character.image}
+               onClose={() => props.onClose(character.id)}
             />
             ))}
       </div>

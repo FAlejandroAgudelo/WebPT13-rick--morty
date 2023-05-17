@@ -11,6 +11,8 @@ export default function Card(props) {
          <h2>{props.name}</h2>
          <h3>{props.species}</h3>
          <h3>{props.gender}</h3>
+         <h3>{props.status}</h3>
+         {/* <h3>{props.origin.name}</h3> */}
          </div>
          
          {/* <h2>{props.status}</h2>
