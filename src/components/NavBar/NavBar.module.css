@@ -1,0 +1,10 @@
+.navegacion{
+    display: flex;
+    justify-content:flex-end;
+    align-items:baseline;
+    background-image: url("../../img/fondo.jpg");
+    margin-bottom: 0.5rem;
+}
+.navegacion button{
+    margin-right: 1rem;
+}
