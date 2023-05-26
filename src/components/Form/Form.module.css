@@ -1,0 +1,53 @@
+.buscar{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.contenido{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.container input{
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    height: 1rem;
+}
+.container button {
+    border-radius: 0.5rem;
+    background-color: yellow;
+    height: 2rem;
+    width: 6rem;
+    font-size: large;
+    
+}
+
+.container {
+    margin-top: 2rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    background-image: url("../../img/fondo.jpg");
+    width: 25rem;
+    height: 13rem;
+    padding: 0.5rem;
+    box-shadow: 1rem 1rem 1rem black;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    background-image: url("../../img/rick-and-morty.gif");
+    height: 20rem;
+}
+.error{
+    color: red;
+}
+.container p{
+    margin: 0;
+    font-weight: 700;
+}
+.container label{
+    text-transform: uppercase;
+    font-weight: 700;
+}
